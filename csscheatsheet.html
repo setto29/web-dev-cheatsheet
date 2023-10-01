@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylecsscheat.css" type="text/css" rel="stylesheet">
+   
+    
+    <title>CSS cheatsheet by Setto</title>
+</head>
+
+<header>
+    <nav>
+            <ul>
+              <li><a href="index.html" id="home">HOME</a></li>
+                    <li><a href="htmlcheatsheet.html">HTML</a></li>
+                    <li><a href="csscheatsheet.html">CSS</a></li>
+            </ul>
+    </nav>
+</header>
+
+<main>
+    <h1>Web Development Cheatsheet</h1>
+    <p><a href="https://github.com/setto29">by Setto</a></p>
+</main>
+
+
+
+
+<body>
+    <h2>CSS Cheatsheet</h2>
+    <h2>Start</h2>
+    <table>
+      <thead>
+        <th>Code</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;link href="style.css" rel="stylesheet"&gt;</span></td>
+          <td>Attach this code inside the head to link to your CSS file.
+            <br>
+            rel describes the relationship.
+          </td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;p style='color: blue;'&gt;Hello&lt;/p&gt;</span></td>
+          <td>inline styles you can add directly to html</td>
+        </tr>
+        <tr>
+          <td><span class="code"><a href="https://www.codecademy.com/resources/docs/css">Codecademy CSS resource 1</a>
+        <br><a href="https://www.codecademy.com/workspaces/new">Codecademy Set up a workspace</a>
+        <br><a href="https://www.codecademy.com/learn/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules-0507dd23-134e-4011-af2c-a06b06ad53f2/cheatsheet">Codecademy CSS cheatsheet</a>
+        </span></td>
+          <td>Resources for CSS</td>
+        </tr>
+    
+      </tbody>
+    </table>
+
+    <h2>Fundamentals</h2>
+    <table>
+      <thead>
+        <th>CSS code</th>
+        <th>target in html</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+            <td><span class="code">*</span></td> 
+            <td>targets everything</td>
+            <td>Universal</td>
+          </tr>
+        <tr>
+          <td><span class="code">.green</span></td>
+          <td>class</td>
+          <td>targets elements with class</td>
+        </tr>
+
+        <tr>
+            <td><span class="code">[href]</span></td>
+            <td>href</td>
+            <td>targets elements with href</td>
+          </tr>
+
+          <tr>
+            <td><span class="code">type[attribute*=value]</span></td>
+            <td>img and media files</td>
+            <td>img src='/images/seasons/cold/winter.jpg'
+                <br>img[src*='winter']
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">h1.special</span></td>
+            <td>the class of h1</td>
+            <td>If h1 has a class called special you can do this.
+            </td>
+          </tr>
+
+          <tr>
+            <td><span class="code">.main-list li</span></td>
+            <td>&lt;ul class='main-list'&gt;<br>
+            &lt;li&gt;</td>
+            <td>The element below the class.
+            </td>
+          </tr>
+</tbody>
+</table>
+
+          <h2>Pseudo-class Selectors</h2>
+          <table>
+            <thead>
+              <th>CSS code</th>
+              <th>target in html</th>
+              <th>Description</th>
+            </thead>
+            <tbody>
+              <tr>
+                  <td><span class="code">p:hover</span></td> 
+                  <td>p</td>
+                  <td>on hover</td>
+                </tr>
+              <tr>
+                <td><span class="code">:focus</span></td>
+                <td>anchor tags</td>
+                <td>targets elements with a</td>
+              </tr>
+      
+              <tr>
+                  <td><span class="code">:visited</span></td>
+                  <td>a</td>
+                  <td>targets elements with a</td>
+                </tr>
+      
+                <tr>
+                  <td><span class="code">:disabled</span></td>
+                  <td>a</td>
+                  <td>targets elements with a
+                  </td>
+                </tr>
+
+                <td><span class="code">:active</span></td>
+                <td>a</td>
+                <td>targets elements with a
+                </td>
+              </tr>
+      </tbody>
+    </table>
+</body>
+</html>

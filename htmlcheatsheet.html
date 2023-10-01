@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="htmlstyle.css" type="text/css" rel="stylesheet">
+    <title>The HTML cheatsheet</title>
+</head>
+<body>
+
+<!-- Navigation -->
+    <header>
+        <nav>
+                <ul>
+                    <li><a href="index.html" id="home">HOME</a></li>
+                    <li><a href="htmlcheatsheet.html" id="home">HTML</a></li>
+                    <li><a href="csscheatsheet.html" id="home">CSS</a></li>
+                </ul>
+        </nav>
+    </header>
+
+<!-- Wed Dev Heading -->
+    <main>
+        <h1>Web Development Cheatsheet</h1>
+        <p><a href="https://github.com/setto29">by Setto</a></p>
+    </main>
+
+<!-- in page navigation -->
+        <header>
+            <h1>HTML Cheatsheet</h1>
+          </header>
+          <ul>
+            <li><a href="#basics">Basics</a></li>
+            <li><a href="#attributes">Attributes</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#semantic">Semantic</a></li>
+        </ul>
+
+<!-- Basics -->
+<h2 id="basics" class="head">Basics</h2>
+        <table>
+            <thead>
+                  <th><h2>Code</h2></th>
+                  <th><h2>Details</h2></th>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td><h3>h1 to h6</h3></td>
+                        <td>headings</td>
+                    </tr>
+                    <tr>
+                        <td><h3>p</h3></td>
+                        <td>paragraph</td>
+                    </tr>
+                    <tr>
+                        <td><h3>a</h3></td>
+                        <td>anchor for a link</td>
+                    </tr>
+                    <tr>
+                        <td><h3>button</h3></td>
+                        <td>a button</td>
+                    </tr>
+                    <tr>
+                        <td><h3>div</h3></td>
+                        <td>division, will make it another block</td>
+                    </tr>
+                    <tr>
+                        <td><h3>span</h3></td>
+                        <td>target a content that will still make it inline</td>
+                    </tr>
+                    <tr>
+                        <td><h3>strong</h3></td>
+                        <td>bold</td>
+                    </tr>
+                    <tr>
+                        <td><h3>em</h3></td>
+                        <td>italic</td>
+                    </tr>
+                    <tr>
+                        <td><h3>br</h3></td>
+                        <td>line break</td>
+                    </tr>
+                    <tr>
+                        <td><h3>ul</h3></td>
+                        <td>unordered list</td>
+                    </tr>
+                    <tr>
+                        <td><h3>ol</h3></td>
+                        <td>ordered list</td>
+                    </tr>
+                    <tr>
+                        <td><h3>li</h3></td>
+                        <td>list item tag</td>
+                    </tr>
+                    <tr>
+                        <td><h3>img src="" alt=""</h3></td>
+                        <td>image tag, selfclosing, alt is the description of the image</td>
+                    </tr>
+                    <tr>
+                        <td><h3>video src="myVideo.mp4" 
+                            <br>width="" height="" 
+                            <br>controls</h3></td>
+                        <td>video tag, controls is pausing and playing buttons
+                            before video closing tag you may add text "Video not supported"
+                            and this will be displayed if the browser does not support the video.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>head</h3></td>
+                        <td>above body element, the metadata</td>
+                    </tr>
+                    <tr>
+                        <td><h3>a href="https://en.wikipedia.org/"
+                            <br> target="_blank"</h3></td>
+                        <td>Blank and Target, For a link to open in a new window, the target attribute 
+                            requires a value of _blank </td>
+                    </tr>
+                    <tr>
+                        <td><h3>a href="./contact.html"</h3></td>
+                        <td>relative page links</td>
+                    </tr>
+                    <tr>
+                        <td><h3>p id="top"<br>h1 id="bottom"<br>
+                            a href="#top"<br>
+                            a href="#bottom"
+                        </h3></td>
+                        <td>linking to the same page</td>
+                    </tr>
+                    <tr>
+                        <td><h3>!-- comment -- </h3></td>
+                        <td>this is a comment</td>
+                    </tr>
+                </tbody>
+        </table>
+    
+<!-- Attributes Section -->
+<h2 id="attributes" class="head">Attributes</h2>
+        <table>
+            <thead>
+                <th><h2>Code</h2></th>
+                        <th><h2>Details</h2></th>
+              </thead>
+                <tbody>
+
+                    <tr>
+                        <td><h3>name="value"</h3></td>
+                        <td>name value pair</td>
+                    </tr>
+                    <tr>
+                        <td><h3>width="500"</h3></td>
+                        <td>specify the width</td>
+                    </tr>
+                    <tr>
+                        <td><h3>href</h3></td>
+                        <td>hyperlink reference</td>
+                    </tr>
+                    <tr>
+                        <td><h3>onclick=".."</h3></td>
+                        <td>event listener</td>
+                    </tr>
+                    <tr>
+                        <td><h3>id</h3></td>
+                        <td>identifier may use with div to differentiate, 
+                            <br>you may add this to h1 tags and etc</td>
+                    </tr>
+                    <tr>
+                        <td><h3>class=""</h3></td>
+                        <td>you can add this to your div code to further identify it</td>
+                    </tr>
+                </tbody>
+        </table>
+
+<!-- Tables Section -->
+<h2 id="tables" class="head">Tables</h2>
+
+        <table>
+            <thead>
+                <th><h2>Code</h2></th>
+                <th><h2>Details</h2></th>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td><h3>table</h3></td>
+                        <td>to create a table</td>
+                    </tr>
+                    <tr>
+                        <td><h3>th</h3></td>
+                        <td>table heading</td>
+                    </tr>
+                    <tr>
+                        <td><h3>th colspan=""</h3></td>
+                        <td>number of columns</td>
+                    </tr>
+                    <tr>
+                        <td><h3>th rowspan=""</h3></td>
+                        <td>number of rows</td>
+                    </tr>
+                    <tr>
+                        <td><h3>td</h3></td>
+                        <td>table data</td>
+                    </tr>
+                    <tr>
+                        <td><h3>thead</h3></td>
+                        <td>section off the head</td>
+                    </tr>
+                    <tr>
+                        <td><h3>tfoot</h3></td>
+                        <td>bottom part can be sectioned off</td>
+                    </tr>
+                    <tr>
+                        <td><h3>scope="col"</h3></td>
+                        <td>you can add this to your th code</td>
+                    </tr>
+                    <tr>
+                        <td><h3>scope="row"</h3></td>
+                        <td>you can add this to your th code</td>
+                    </tr>
+                </tbody>
+        </table>
+
+
+       
+<!-- Semantic Section -->
+<h2 id="semantic" class="head">Semantic</h2>
+        <table>
+            <thead>
+                <th><h2 id="head">Code</h2></th>
+                <th><h2 id="head">Details</h2></th>
+              </thead>
+                <tbody>
+                    <tr>
+                        <td><h3>nav</h3></td>
+                        <td>navigation links, can be used inside header or used on its own</td>
+                    </tr>
+                    <tr>
+                        <td><h3>main</h3></td>
+                        <td>the dominant content</td>
+                    </tr>
+                    <tr>
+                        <td><h3>footer</h3></td>
+                        <td>bottom of the subject info, contains contact info, copyright info
+                            terms of use, site map, reference links, etc.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>section</h3></td>
+                        <td>a section</td>
+                    </tr>
+                    <tr>
+                        <td><h3>article</h3></td>
+                        <td>can have a p tag inside</td>
+                    </tr>
+                    <tr>
+                        <td><h3>aside</h3></td>
+                        <td>marks additional information that enhances another element
+                            good for endnotes, comments, quotes, additional info.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>figure</h3></td>
+                        <td>element to describe an image, encapsulates all types of media</td>
+                    </tr>
+                    <tr>
+                        <td><h3>figcaption</h3></td>
+                        <td>content for the figure</td>
+                    </tr>
+                    <tr>
+                        <td><h3>audio autoplay controls</h3></td>
+                        <td>you may add this code inside an audio tag<br>
+                            source src="iAmAnAudioFile.mp3" type="audio/mp3"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><h3>embed</h3></td>
+                        <td>embed src="download.gif" /<br>
+                        for media files</td>
+                    </tr>
+                </tbody>
+        </table>
+</body>
+
+<footer>
+    <p>Created by Setto
+        <br> tupaslisette@gmail.com
+    </p>
+</footer>
+
+
+</html>

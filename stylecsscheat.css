@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: gainsboro;
+  }
+  
+  h1 {
+      font-size: 36px;
+      padding: 30px;
+      color: #8c6b48;
+      
+      background-color: white;
+  }
+
+  main {
+    text-align: center;
+  }
+  
+  h2 {
+    color: rebeccapurple;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    border: 2px solid darkorchid;
+    width: 650px;
+    margin: 0 auto;
+  }
+  
+  thead {
+    background-color: plum;
+  }
+  
+  td {
+    border-top: 1px solid darkorchid;
+  }
+  
+  .code {
+    font-family: monospace;
+    background-color: beige;
+  }
+
+  header {
+    background-color: #ebebeb;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+  }
+
+  nav {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+  }
+  nav li {
+    color: #000000;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+  }
+
