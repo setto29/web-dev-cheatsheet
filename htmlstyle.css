@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: gainsboro;
-    color: rgb(0, 0, 0);
+    background-color: #A6CFE2;
+    color: #0B0C11;
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,15 +15,15 @@ body {
 
   header {
     background-color: #333333;
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 5;
   }
 
   nav {
-    margin: 0;
-    padding: 20px 0;
+    height: 80px;
   }
+
   nav li {
     color: #fff;
     font-family: sans-serif;
@@ -25,17 +31,18 @@ body {
     font-size: 12px;
     display: inline-block;
     width: 80px;
+
   }
 
   h1 {
     font-size: 36px;
     padding: 15px;
-    color: #8c6b48;
+    color: #0B0C11;
     background-color: white;
   }
 
   a {
-    color: rgb(30, 30, 30);
+    color: #0B0C11;
 }
 
 li {
@@ -47,20 +54,26 @@ li {
     width: 80px;
 }
 
+ul {
+  padding-top: 30px;
+}
+
 th {
-  border-top: 1px solid #8c6b48;
+  border-top: 1px solid #0B0C11;
   background-color: whitesmoke;
   }
   
   table {
-    border: 2px solid #8c6b48;
+    border: 2px solid #0B0C11;
     width: 650px;
     margin: 0 auto;
+    top: 110px;
+    position: relative;
   }
   
   td {
-    border-top: 1px solid #8c6b48;
-    border-right: 1px solid #8c6b48;
+    border-top: 1px solid #0B0C11;
+    border-right: 1px solid #0B0C11;
   }
 
   h3 {
@@ -75,11 +88,15 @@ th {
   footer {
     background-color: #333333;
     color: white;
+    position: relative;
+    top: 130px;
 }
 
 h2.head {
-  color:  #8c6b48;
+  color:  #0B0C11;
   margin-top: 40px;
+  top: 110px;
+  position: relative;
 }
 
 ul {
@@ -91,5 +108,15 @@ ul {
 }
 
 h2 {
-  color: #8c6b48;
+  color: #0B0C11;
+}
+
+main {
+  position: relative;
+  top: 90px;
+}
+
+.title {
+  position: relative;
+  top: 110px;
 }

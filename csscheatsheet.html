@@ -9,6 +9,7 @@
     <title>CSS cheatsheet by Setto</title>
 </head>
 
+<!--navigation-->
 <header>
     <nav>
             <ul>
@@ -19,16 +20,16 @@
     </nav>
 </header>
 
+<!--Header-->
 <main>
     <h1>Web Development Cheatsheet</h1>
-    <p><a href="https://github.com/setto29">by Setto</a></p>
+    <p><a href="https://github.com/setto29"><br>by Setto</a></p>
 </main>
 
-
-
-
 <body>
-    <h2>CSS Cheatsheet</h2>
+    <h2 id="title">CSS Cheatsheet</h2>
+
+    <!--Starting css codes-->
     <h2>Start</h2>
     <table>
       <thead>
@@ -57,6 +58,8 @@
     
       </tbody>
     </table>
+
+    <!--Fundamentals-->
 
     <h2>Fundamentals</h2>
     <table>
@@ -107,6 +110,8 @@
 </tbody>
 </table>
 
+<!--Pseudo class Selectors-->
+
           <h2>Pseudo-class Selectors</h2>
           <table>
             <thead>
@@ -146,5 +151,202 @@
               </tr>
       </tbody>
     </table>
+
+
+<!--Visual Rules-->
+
+<h2>Visual Rules</h2>
+<table>
+  <thead>
+    <th>CSS code</th>
+    <th>target in html</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <tr>
+        <td><span class="code">font-family: 'Courier New';</span></td> 
+        <td>font</td>
+        <td>If font name has a space then use ''</td>
+      </tr>
+    <tr>
+      <td><span class="code">font-weight: bold or 18px;</span></td>
+      <td>fonts</td>
+      <td>can use bold or px or normal</td>
+    </tr>
+
+    <tr>
+        <td><span class="code">opacity: 0.5;</span></td>
+        <td>transparency</td>
+        <td>until 1.0</td>
+      </tr>
+
+      <tr>
+        <td><span class="code">background-image: url('')</span></td>
+        <td>background image</td>
+        <td>Just add URL
+        </td>
+      </tr>
+
+      <td><span class="code">color: blue !important;</span></td>
+      <td>!important</td>
+      <td>will override other css
+      </td>
+    </tr>
+</tbody>
+</table>
+
+<!--Box Model-->
+
+<h2>Box Model</h2>
+<table>
+  <thead>
+    <th>CSS code</th>
+    <th>target in html</th>
+    <th>Description</th>
+  </thead>
+  <tbody>
+    <tr>
+        <td><span class="code">border: 3px solid coral;</span></td> 
+        <td>Width: thich medium thick
+          <br>Style: solid none dotted
+        </td>
+        <td>width style color</td>
+      </tr>
+    <tr>
+      <td><span class="code">border-radius: 5px or 50%;</span></td>
+      <td>border curvature</td>
+      <td>can use px or percent</td>
+    </tr>
+
+    <tr>
+        <td><span class="code"> padding: 6px 11px 4px 9px;</span></td>
+        <td>clockwise</td>
+        <td>top right bottom left can be used for margin</td>
+      </tr>
+
+      <tr>
+        <td><span class="code">margin: 0 auto;</span></td>
+        <td>will center the div in its containing element</td>
+        <td>instructs the browser to adjust the left and right margins until centered.
+        </td>
+      </tr>
+
+      <td><span class="code"> min-width: 300px;<br>
+          max-width: 600px;
+      <br>min-height: 150px;
+     <br>max-height: 300px;
+      </span></td>
+      <td>will ensure min and max value</td>
+      <td>irregardless of web size
+      </td>
+    </tr>
+    <tr>
+    <td><span class="code">overflow: scroll;
+    </span></td>
+    <td>can be hidden or visible instead of scroll</td>
+    <td>irregardless of web size
+    </td>
+    </tr>
+    <tr>
+    <td><span class="code">visibility: hidden;
+    </span></td>
+    <td>can be visible or collapse</td>
+    <td>irregardless of web size
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="code">margin: 0;<br>
+      padding: 0;
+    </span></td>
+    <td>resetting defaults</td>
+    <td>resets the default of most browsers
+    </td>
+  </tr>
+
+  <tr>
+    <td><span class="code">box-sizing: border-box;<br>
+      or content-box;
+    </span></td>
+    <td>browser default is the content box</td>
+    <td>we can reset it to border box, added to *
+    </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+
+      <!--Display and Positioning-->
+      <h2>Display and Positioning</h2>
+      <table>
+        <thead>
+          <th>Code</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="code">position</span></td>
+            <td>relative static fixed absolute sticky
+            </td>
+          </tr>
+          <tr>
+            <td><span class="code">z-index: 1;</span></td>
+            <td>how far forward or backward</td>
+          </tr>
+          <tr>
+            <td><span class="code">display: block inline inline-block;</span></td>
+          </span></td>
+            <td>block: A float that takes up the whole street width. After it passes, the next float comes.
+<br>
+              inline: People walking in the parade. They just flow, side by side.
+              <br>
+              inline-block: People walking in boxes. They flow side by side, but each person has a box (with set dimensions) around them.</td>
+          </tr>
+          <tr>
+            <td><span class="code">float: right;</span></td>
+            <td>moves it as far right as possible</td>
+          </tr>
+          <tr>
+            <tr>
+              <td><span class="code">clear: right;</span></td>
+              <td>how elements should behave when they bump into each other on the page.</td>
+            </tr>
+            <tr>
+      
+        </tbody>
+      </table>
+
+<!--Links-->
+
+<h2>Resources</h2>
+<table>
+  <thead>
+    <th>Links</th>
+  </thead>
+            <tbody>
+              <tr>
+                  <td><span class="code"><a href="https://www.codecademy.com/learn/paths/fscj-22-web-development-foundations/tracks/fscj-22-fundamentals-of-css/modules/wdcp-22-learn-css-the-box-model-c8543ca0-92d4-4824-bb89-35a1fb0189d4/cheatsheet">
+                    Box Model</a>></span></td> 
+                </tr>
+                <tr>
+                  <td><span class="code"><a href="https://www.codecademy.com/learn/paths/fscj-22-web-development-foundations/tracks/fscj-22-improved-styling-with-css/modules/wdcp-22-learn-css-colors-fb7afde0-5376-43ed-86ba-c87c41749e61/cheatsheet">
+                    Colors Cheatsheet</a></span></td> 
+                </tr>
+                <tr>
+                  <td><span class="code"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/named-color">
+                    Named Colors</a>></span></td> 
+                </tr>
+          </tbody>
+          </table>
+
 </body>
+
+<footer>
+  <p>Created by Setto
+    <br> tupaslisette@gmail.com
+</p>
+</footer>
 </html>
